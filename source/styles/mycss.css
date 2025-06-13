@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito&display=swap
+);
+
+body {
+      font-family: Nunito, serif;
+      background: linear-gradient(90deg, #5959ca 0%, #000000 100%);
+}
+
+p {
+      color: aquamarine;
+}
+
+.nav-link {
+      color: rgb(181, 236, 218);
+}
+
+.navbar-nav .nav-link.active {
+      color: rgb(196, 194, 194);
+}
+
+.navbar-brand img {
+      width: 40px;
+}
+
+.navbar-toggler {
+      background-color:rgb(196, 194, 194);
+}
+
+.sidebar {
+      background: linear-gradient(270deg, #d4b29b 0%, #0000003d 100%);
+      color: rgb(154, 211, 221);
+
+}
+
+.card {
+      background: linear-gradient(270deg, #d4b29b 0%, #0000003d 100%);
+      color:aliceblue;
+}
+
+.card a {
+      text-decoration: none;
+      color:aliceblue;
+}
+
+.slide-text,
+.footer-text {
+      color: rgb(115, 170, 206);
+      margin: auto auto;
+}
+
+footer,
+.btn-outline-primary {
+      background: linear-gradient(270deg, #da7ba2 0%, #0000003d 100%);
+
+}
+
+.media-links {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+}
+
+.call-anim {
+      animation: call 2s ease 0s 1 normal forwards;
+}
+
+@keyframes call {
+	0% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+		transform-origin: center center;
+	}
+
+	10% {
+		animation-timing-function: ease-in;
+		transform: scale(0.91);
+	}
+
+	17% {
+		animation-timing-function: ease-out;
+		transform: scale(0.98);
+	}
+
+	33% {
+		animation-timing-function: ease-in;
+		transform: scale(0.87);
+	}
+
+	45% {
+		animation-timing-function: ease-out;
+		transform: scale(1);
+	}
+}
+
+
+@media (max-width: 755px) {
+      .carousel-indicators {
+            display: none;
+      }
+}
